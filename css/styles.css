@@ -8,7 +8,7 @@ body {
 }
 
 #welcome {
-  padding-top: 70px;
+  padding-top: 50px;
   background-color: #a9d18e;
   display: block;
   margin-left: auto;
@@ -22,6 +22,7 @@ h2 {
 
 #options {
   padding-top: 20px;
+  padding-bottom: 30px;
   background-color: #a9d18e;
   display: block;
   margin-left: auto;
@@ -49,6 +50,21 @@ h2 {
   border-color: RGB(186,104,200);
 }
 
-#separation {
+#info {
+  padding-top: 20px;
+  background-color: #10140e;
+  color: white;
+  style: bold;
+}
 
+#smallicon {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+p {
+  padding-bottom: 0px;
 }
