@@ -1,13 +1,54 @@
+@font-face {
+  font-family: splitVerdana;
+  src: '../fonts/spiltVerdana.ttf' format("truetype");
+}
+
+body {
+  font-family: spiltVerdana, Verdana, sans-serif;
+}
+
 #welcome {
+  padding-top: 70px;
   background-color: #a9d18e;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  color: white;
+}
+
+h2 {
+  padding-top: 20px;
 }
 
 #options {
+  padding-top: 20px;
   background-color: #a9d18e;
   display: block;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
+  color: white;
+}
+
+#welcometext {
+  font-weight: bold;
+}
+
+#icon {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  max-width:50%;
+  max-height:50%;
+}
+
+#b_icon {
+  background-color: #c2deaf;
+  border-radius: 100px;
+  border-style: outset;
+  border-width: 12px;
+  border-color: RGB(186,104,200);
+}
+
+#separation {
+
 }
