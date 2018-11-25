@@ -1,0 +1,116 @@
+
+
+#mainbody {
+  font-family: Verdana, sans-serif;
+  background-image: url('../images/background3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+#logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 5vw;
+}
+
+#logo_nav {
+  font-family: 'Pacifico', cursive;
+  font-size: 3vw;
+  color: white;
+}
+
+#welcome {
+  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+h2 {
+  padding-top: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+#options {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+#welcometext {
+  font-weight: bold;
+}
+
+#icon {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  max-width:50%;
+  max-height:50%;
+}
+
+#b_icon {
+  background-color: #a9d18e;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 12px;
+  border-color: RGB(86,35,95);
+  padding-bottom: 50px;
+}
+
+#info {
+  padding-top: 20px;
+  background-color: #10140e;
+  color: white;
+  style: bold;
+  min-height: 40px;
+}
+
+#smallicon {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+#aboutbody {
+  font-family: Verdana, sans-serif;
+  background-image: url('../images/background3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+#whoarewe {
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  background-image: url('../images/background3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 150px;
+  padding-top: 50px;
+}
+
+#abouttext {
+  background-color: #10140e;
+  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 400px;
+}
+
+#textdetails {
+  text-align: justify;
+  padding-top: 30px;
+  font-family: 'Special Elite', cursive;
+  color: white;
+  font-size: 20pt;
+  margin-left: 60px;
+  margin-right: 60px;
+}
