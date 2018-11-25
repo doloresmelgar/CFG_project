@@ -1,6 +1,6 @@
 
 
-body {
+#mainbody {
   font-family: Verdana, sans-serif;
   background-image: url('../images/background3.jpg');
   background-size: cover;
@@ -13,18 +13,8 @@ body {
   font-size: 5vw;
 }
 
-.jumbotron {
-
-background-size: cover;
-background-attachment: fixed;
-min-height: 600px;
-
-  background-color: #a9d18e;
-  background-color: #a9d18e;
-}
-
 #welcome {
-  padding-top: 20px;
+  padding-top: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -39,7 +29,6 @@ h2 {
 #options {
   padding-top: 20px;
   padding-bottom: 30px;
-
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -64,6 +53,7 @@ h2 {
   border-style: solid;
   border-width: 12px;
   border-color: RGB(86,35,95);
+  padding-bottom: 50px;
 }
 
 #info {
@@ -81,6 +71,39 @@ h2 {
   display: inline-block;
 }
 
-p {
-  padding-bottom: 0px;
+#aboutbody {
+  font-family: Verdana, sans-serif;
+  background-image: url('../images/background3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+#whoarewe {
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  background-image: url('../images/background3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 150px;
+  padding-top: 50px;
+}
+
+#abouttext {
+  background-color: #10140e;
+  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 400px;
+}
+
+#textdetails {
+  text-align: justify;
+  padding-top: 30px;
+  font-family: 'Carter One', cursive;
+  color: white;
+  font-size: 1vw;
+  margin-left: 60px;
+  margin-right: 60px;
 }
