@@ -13,6 +13,12 @@
   font-size: 5vw;
 }
 
+#logo_nav {
+  font-family: 'Pacifico', cursive;
+  font-size: 3vw;
+  color: white;
+}
+
 #welcome {
   padding-top: 10px;
   display: block;
@@ -61,6 +67,7 @@ h2 {
   background-color: #10140e;
   color: white;
   style: bold;
+  min-height: 40px;
 }
 
 #smallicon {
@@ -101,9 +108,9 @@ h2 {
 #textdetails {
   text-align: justify;
   padding-top: 30px;
-  font-family: 'Carter One', cursive;
+  font-family: 'Special Elite', cursive;
   color: white;
-  font-size: 1vw;
+  font-size: 20pt;
   margin-left: 60px;
   margin-right: 60px;
 }
