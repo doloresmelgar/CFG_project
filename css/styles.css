@@ -114,3 +114,25 @@ h2 {
   margin-left: 60px;
   margin-right: 60px;
 }
+
+label{
+  color: white;
+  font-weight: bold;
+  font-family: 'Special Elite', cursive;
+  color: white;
+  font-size: 20pt;
+}
+
+#selling {
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  background-image: url('../images/background3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 150px;
+  padding-top: 50px;
+}
+
+#currency {
+
+}
