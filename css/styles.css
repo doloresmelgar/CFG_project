@@ -96,6 +96,16 @@ h2 {
   padding-top: 50px;
 }
 
+#contactus {
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  background-image: url('../images/background3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 150px;
+  padding-top: 30px;
+}
+
 #abouttext {
   background-color: #10140e;
   padding-top: 10px;
