@@ -122,3 +122,13 @@ label{
   color: white;
   font-size: 20pt;
 }
+
+#selling {
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  background-image: url('../images/background3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 150px;
+  padding-top: 20px;
+}
