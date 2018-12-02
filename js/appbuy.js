@@ -34,9 +34,3 @@ jQuery(document).ready(function(){
     $('#n6').remove();
   });
 });
-
-
-//$('#share_btn').find('#1').on('click',function(){
-//  var shareit = $();
-//  $('#share_btn').find('#1').parent().append(shareit);
-//  $('#share_btn').remove();
