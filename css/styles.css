@@ -90,6 +90,9 @@ h2 {
   background-size: cover;
   background-attachment: fixed;
   min-height: 600px;
+  margin-rigt: auto;
+  margin-left: auto;
+  display: block;
 }
 
 #whoarewe {
@@ -100,25 +103,91 @@ h2 {
   background-attachment: fixed;
   min-height: 150px;
   padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #abouttext {
-  background-color: #10140e;
+  background-color: RGBA(16,20,14,0.8);
   padding-top: 10px;
-  display: block;
+
   margin-left: auto;
   margin-right: auto;
-  min-height: 400px;
+  min-height: 300px;
 }
 
 #textdetails {
   text-align: justify;
   padding-top: 30px;
   font-family: 'Special Elite', cursive;
-  color: white;
-  font-size: 20pt;
+  color: #d6d6d6;
+  font-size: 18pt;
   margin-left: 60px;
   margin-right: 60px;
+}
+
+
+
+blockquote {
+  border-radius: 3px;
+  padding: 36px 50px;
+  box-shadow: 0 4px rgba(0,0,0,.25);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: RGBA(40,40,40,0.7);
+  margin-bottom: 10px;
+  color: #868585;
+  font-size: 16px;
+  font-family: verdana;
+  font-style: italic;
+}
+
+.authorship {
+  color: black;
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: verdana;
+  text-align: right;
+  font-style: normal;
+}
+
+.schemes {
+  max-width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#bordercol {
+  max-width: 98%;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid 4px white;
+}
+
+.reference {
+  font-family: verdana;
+  font-style: italic;
+  font-size: 16px;
+  color: #868585;
+  font-weight: bold;
+}
+
+#buzz {
+  background-color: RGBA(16,20,14,0.8);
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+#textdetails2 {
+  text-align: justify;
+  color: #d6d6d6;
+  font-size: 18pt;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 label{
