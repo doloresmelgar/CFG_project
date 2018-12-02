@@ -8,6 +8,7 @@
   min-height: 600px;
 }
 
+
 #logo {
   font-family: 'Pacifico', cursive;
   font-size: 5vw;
@@ -17,6 +18,11 @@
   font-family: 'Pacifico', cursive;
   font-size: 3vw;
   color: white;
+}
+
+#searchicon {
+  max-width: 11%;
+  display: inline;
 }
 
 #welcome {
@@ -54,7 +60,7 @@ h2 {
 }
 
 #b_icon {
-  background-color: #a9d18e;
+  background-color: transparent;
   border-radius: 100px;
   border-style: solid;
   border-width: 12px;
@@ -84,6 +90,9 @@ h2 {
   background-size: cover;
   background-attachment: fixed;
   min-height: 600px;
+  margin-rigt: auto;
+  margin-left: auto;
+  display: block;
 }
 
 #whoarewe {
@@ -94,6 +103,8 @@ h2 {
   background-attachment: fixed;
   min-height: 150px;
   padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #contactus {
@@ -107,22 +118,86 @@ h2 {
 }
 
 #abouttext {
-  background-color: #10140e;
+  background-color: RGBA(16,20,14,0.8);
   padding-top: 10px;
-  display: block;
+
   margin-left: auto;
   margin-right: auto;
-  min-height: 400px;
+  min-height: 300px;
 }
 
 #textdetails {
   text-align: justify;
   padding-top: 30px;
   font-family: 'Special Elite', cursive;
-  color: white;
-  font-size: 20pt;
+  color: #d6d6d6;
+  font-size: 18pt;
   margin-left: 60px;
   margin-right: 60px;
+}
+
+
+
+blockquote {
+  border-radius: 3px;
+  padding: 36px 50px;
+  box-shadow: 0 4px rgba(0,0,0,.25);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: RGBA(40,40,40,0.7);
+  margin-bottom: 10px;
+  color: #868585;
+  font-size: 16px;
+  font-family: verdana;
+  font-style: italic;
+}
+
+.authorship {
+  color: black;
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: verdana;
+  text-align: right;
+  font-style: normal;
+}
+
+.schemes {
+  max-width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#bordercol {
+  max-width: 98%;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid 4px white;
+}
+
+.reference {
+  font-family: verdana;
+  font-style: italic;
+  font-size: 16px;
+  color: #868585;
+  font-weight: bold;
+}
+
+#buzz {
+  background-color: RGBA(16,20,14,0.8);
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+#textdetails2 {
+  text-align: justify;
+  color: #d6d6d6;
+  font-size: 18pt;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 label{
@@ -132,6 +207,12 @@ label{
   color: white;
   font-size: 20pt;
 }
+
+
+#selling-header {
+padding-top: 5px;
+}
+
 
 #selling {
   font-family: 'Indie Flower', cursive;
@@ -143,6 +224,93 @@ label{
   padding-top: 50px;
 }
 
-#currency {
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
 
+.btn {
+  border: 4px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#productsection {
+  padding-top:200px;
+  background-color: RGBA(16,20,14,0.8) ;
+}
+
+#imgproduct {
+  max-width: 80%;
+  border-radius: 30px;
+  border: 5px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.proddesc {
+  color: white;
+  font-family: verdana;
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 12px;
+}
+
+.prodtitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-color: white;
+  font-family: 'Special Elite', cursive;
+}
+
+.prodaddress {
+  text-align: right;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.prodtext{
+  text-align: justify;
+  font-size: 14px;
+}
+
+.prodprice{
+
+  font-weight: bolder;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+
+}
+
+.item {
+  border: solid 2px white;
+  max-width: 85%;
+  max-height: 85%;
+  min-height: 400px;
+  margin: auto;
+  position: relative;
 }
