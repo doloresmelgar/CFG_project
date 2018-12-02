@@ -214,13 +214,13 @@ padding-top: 5px;
   padding-top: 50px;
 }
 
-.upload-btn-wrapper {
+.upload-btn_custom-wrapper {
   position: relative;
   overflow: hidden;
   display: inline-block;
 }
 
-.btn {
+.btn_custom {
   border: 4px solid white;
   color: white;
   background-color: transparent;
@@ -230,7 +230,7 @@ padding-top: 5px;
   font-weight: bold;
 }
 
-.upload-btn-wrapper input[type=file] {
+.upload-btn_custom-wrapper input[type=file] {
   font-size: 100px;
   position: absolute;
   left: 0;
@@ -294,6 +294,40 @@ padding-top: 5px;
   bottom: 0;
   right: 40px;
 
+}
+
+.share_btn{
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 0px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Indie Flower';
+  position: absolute;
+  margin: auto;
+  bottom: 10px;
+  left: 40px;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.fb_btn{
+  background-color: #3b5998;
+  border-color: #3b5998;
+  padding: 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'roboto', 'verdana';
+  position: absolute;
+  margin: auto;
+  bottom: 10px;
+  left: 40px;
+  display: inline-flex;
+  align-items: flex-end;
 }
 
 .item {
