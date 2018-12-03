@@ -51,7 +51,9 @@ h2 {
   font-weight: bold;
 }
 
-#icon {
+.icon {
+  background-color: transparent;
+  border: 0px;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
@@ -59,11 +61,20 @@ h2 {
   max-height:50%;
 }
 
-#b_icon {
+.b_icon {
   background-color: transparent;
   border-radius: 100px;
   border-style: solid;
-  border-width: 12px;
+  border-width: 9px;
+  border-color: white;
+  padding-bottom: 50px;
+}
+
+.highlighted {
+  background-color: RGBA(16,20,14,0.8);
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 9px;
   border-color: RGB(86,35,95);
   padding-bottom: 50px;
 }
@@ -224,13 +235,13 @@ padding-top: 5px;
   padding-top: 50px;
 }
 
-.upload-btn-wrapper {
+.upload-btn_custom-wrapper {
   position: relative;
   overflow: hidden;
   display: inline-block;
 }
 
-.btn {
+.btn_custom {
   border: 4px solid white;
   color: white;
   background-color: transparent;
@@ -240,7 +251,7 @@ padding-top: 5px;
   font-weight: bold;
 }
 
-.upload-btn-wrapper input[type=file] {
+.upload-btn_custom-wrapper input[type=file] {
   font-size: 100px;
   position: absolute;
   left: 0;
@@ -297,13 +308,81 @@ padding-top: 5px;
 }
 
 .prodprice{
-
   font-weight: bolder;
   font-size: 18px;
   position: absolute;
   bottom: 0;
   right: 40px;
+}
 
+.hidding {
+  display: none;
+}
+
+.share_btn{
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 0px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Indie Flower';
+  position: absolute;
+  margin: auto;
+  bottom: 10px;
+  left: 40px;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.fb_btn{
+  background-color: #3b5998;
+  border-color: #3b5998;
+  padding: 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'roboto', 'verdana';
+  position: absolute;
+  margin: auto;
+  bottom: 10px;
+  left: 40px;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.price_btn{
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 0px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'verdana';
+  position: absolute;
+  margin: auto;
+  bottom: 10px;
+  right: 40px;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.more_btn{
+  border: 0px;
+  background-color: transparent;
+  padding: 0px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  position: absolute;
+  margin: auto;
+  display: inline-flex;
+  align-items: flex-end;
 }
 
 .item {
