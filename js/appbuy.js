@@ -1,36 +1,22 @@
 jQuery(document).ready(function(){
-  $('#n1').on('click',function(){
+
+  $('.share_btn').on('click',function(){
     var shareit_change = $('<button class="fb_btn"> &nbsp;Facebook&nbsp; </button>');
-    $('#n1').parent().append(shareit_change);
-    $('#n1').remove();
+    $(this).closest('.proddesc').append(shareit_change);
+    $(this).remove();
   });
 
-  $('#n2').on('click',function(){
-    var shareit_change = $('<button class="fb_btn"> &nbsp;Facebook&nbsp; </button>');
-    $('#n2').parent().append(shareit_change);
-    $('#n2').remove();
+  $('.price_btn').on('click',function(){
+    var selectdescrip = $(this).closest('.proddesc')
+    var amount = selectdescrip.data('price');
+    var price = $('<p class="prodprice"> '+amount+' </p>');
+    selectdescrip.append(price);
+    $(this).remove();
   });
 
-  $('#n3').on('click',function(){
-    var shareit_change = $('<button class="fb_btn"> &nbsp;Facebook&nbsp; </button>');
-    $('#n3').parent().append(shareit_change);
-    $('#n3').remove();
+  $('.more_btn').on('click',function(){
+    $(this).closest('.proddesc').find('.hidding').fadeToggle();
   });
 
-  $('#n4').on('click',function(){
-    var shareit_change = $('<button class="fb_btn"> &nbsp;Facebook&nbsp; </button>');
-    $('#n4').parent().append(shareit_change);
-    $('#n4').remove();
-  });
 
-  $('#n5').on('click',function(){
-    var shareit_change = $('<button class="fb_btn"> &nbsp;Facebook&nbsp; </button>');
-    $('#n5').parent().append(shareit_change);
-    $('#n5').remove();
-  });
-  $('#n6').on('click',function(){
-    var shareit_change = $('<button class="fb_btn"> &nbsp;Facebook&nbsp; </button>');
-    $('#n6').parent().append(shareit_change);
-    $('#n6').remove();
-  });
 });
