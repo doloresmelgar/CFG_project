@@ -8,4 +8,5 @@ jQuery(document).ready(function(){
   $('.icon').on('mouseout',function(){
     $('.highlighted').removeClass('highlighted');
   });
+  
 });

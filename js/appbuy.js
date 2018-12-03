@@ -18,5 +18,4 @@ jQuery(document).ready(function(){
     $(this).closest('.proddesc').find('.hidding').fadeToggle();
   });
 
-
 });
